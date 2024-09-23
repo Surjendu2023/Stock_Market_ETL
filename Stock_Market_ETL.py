@@ -23,13 +23,14 @@ def main():
                 Volume=data['Time Series (Daily)'][date]['5. volume']
                 element={"date":new_date,"opening_bal":opening_bal,"closing_bal":closing_bal,"Today_High":Today_High,"Today_Low":Today_Low,"Volume":Volume}
                 database.append(element)
+            return database
 
-    def data_load():
+    def data_load(data):
         import psycopg2
         from sqlalchemy import create_engine
         import pandas as pd
         engine=create_engine('postgresql+psycopg2://postgres:admin@localhost/surjendu')
-        df=pd.DataFrame(database)
+        df=pd.DataFrame(data)
         df.to_sql('Stock_Market_data',engine,if_exists='replace') 
         
 
@@ -40,8 +41,8 @@ def main():
         trigger=f"https://api.telegram.org/bot{info['token']}/sendMessage?chat_id={info['chat_id']}&text={info['message']}"
         print(requests.get(trigger))
 
-    data_fetch()
-    data_load()
+    data=data_fetch()
+    data_load(data)
     notify()
 
 
