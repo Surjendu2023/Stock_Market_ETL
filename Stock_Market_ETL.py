@@ -14,7 +14,7 @@ def main():
             print('We have connected......')
             data=responce.json()   
             database=[]     
-            for date in data(['Time Series (Daily)']):
+            for date in data['Time Series (Daily)']:
                 new_date=date
                 opening_bal=data['Time Series (Daily)'][date]['1. open']
                 closing_bal=data['Time Series (Daily)'][date]['4. close']
