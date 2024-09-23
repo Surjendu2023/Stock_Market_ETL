@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="9NyP9MeGRGG3dc3P6RuH">
+    <mxGraphModel dx="1332" dy="468" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h8ciDNNN2p1ZxSdy8E8c-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/apple-apps/100/Apple_Stock-128.png" vertex="1" parent="1">
+          <mxGeometry x="61" y="94" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="h8ciDNNN2p1ZxSdy8E8c-2" value="Stock Market API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="33" y="154" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h8ciDNNN2p1ZxSdy8E8c-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="237" y="69" width="282" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="h8ciDNNN2p1ZxSdy8E8c-5" value="Extract&amp;nbsp; Transform" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/Python_logo-128.png;fontColor=#151e9d;imageBackground=none;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h8ciDNNN2p1ZxSdy8E8c-6" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_postgresql_instance;" vertex="1" parent="1">
+          <mxGeometry x="280" y="246" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="h8ciDNNN2p1ZxSdy8E8c-7" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="312" y="173" as="sourcePoint" />
+            <mxPoint x="312.46311348895847" y="243.09846692748613" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="313" y="198" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h8ciDNNN2p1ZxSdy8E8c-9" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="363" y="276" as="sourcePoint" />
+            <mxPoint x="627" y="135" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="467" y="276" />
+              <mxPoint x="467" y="180" />
+              <mxPoint x="467" y="132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h8ciDNNN2p1ZxSdy8E8c-10" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;" vertex="1" parent="1">
+          <mxGeometry x="632" y="92" width="57" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="h8ciDNNN2p1ZxSdy8E8c-12" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="361" y="291" as="sourcePoint" />
+            <mxPoint x="608" y="291" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h8ciDNNN2p1ZxSdy8E8c-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-6/24/telegram-128.png" vertex="1" parent="1">
+          <mxGeometry x="611" y="251" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="h8ciDNNN2p1ZxSdy8E8c-14" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="129" y="128" as="sourcePoint" />
+            <mxPoint x="274" y="126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h8ciDNNN2p1ZxSdy8E8c-18" value="Load" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="294" y="324" width="45" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h8ciDNNN2p1ZxSdy8E8c-19" value="Success/Failure Notification" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="586" y="321" width="166" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h8ciDNNN2p1ZxSdy8E8c-20" value="visualization" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="166" width="83" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
